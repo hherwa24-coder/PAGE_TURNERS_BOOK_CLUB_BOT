@@ -1,9 +1,9 @@
 name: Run Telegram Bot
 
 on:
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Runs once daily to keep alive
+    - cron: '0 0 * * *'
 
 jobs:
   run-bot:
